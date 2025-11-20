@@ -1,134 +1,136 @@
 import streamlit as st
-import pandas as pd
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
+import re
 
-# API 키 로드
+# --- 1. Modular Imports ---
+from data_manager import CourseDataManager
+from course_recommender import recommend_courses
+from schedule_generator import generate_schedules
+from schedule_ranker import rank_schedules
+
+# --- 2. Initial Setup ---
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# 페이지 설정
-st.set_page_config(page_title="수강신청 도우미", page_icon="🎓", layout="wide")
-st.title("🎓 수강신청 도우미 챗봇")
-st.write("강좌에 대해 궁금한 점을 물어보세요!")
+st.title("🎓 AI 수강신청 도우미")
 
-# CSV 파일 읽기
-@st.cache_data
-def load_courses():
-    try:
-        df = pd.read_csv("courses.csv", encoding="utf-8")
-    except:
-        try:
-            df = pd.read_csv("courses.csv", encoding="cp949")
-        except:
-            df = pd.read_csv("courses.csv", encoding="utf-8-sig")
-    return df
+# --- 3. State Management and Initialization ---
+@st.cache_resource
+def get_data_manager():
+    return CourseDataManager()
 
-try:
-    courses_df = load_courses()
-    st.success(f"✅ {len(courses_df)}개의 강좌 정보를 불러왔습니다!")
-except Exception as e:
-    st.error(f"❌ CSV 파일을 읽는 중 오류가 발생했습니다: {e}")
-    st.stop()
+@st.cache_resource
+def get_gemini_model():
+    return genai.GenerativeModel('gemini-1.5-flash')
 
-# 강좌 정보를 텍스트로 변환
-def get_course_info():
-    course_text = "=== 현재 수강신청 가능한 강좌 목록 ===\n\n"
-    for idx, row in courses_df.iterrows():
-        course_text += f"【과목 {idx+1}】\n"
-        course_text += f"과목코드: {row['과목코드']}\n"
-        course_text += f"과목명: {row['과목명']}\n"
-        course_text += f"교수명: {row['교수명']}\n"
-        course_text += f"학점: {row['학점']}\n"
-        course_text += f"수업시간: {row['요일']} {row['시간']}\n"
-        course_text += f"강의실: {row['강의실']}\n"
-        course_text += f"정원: {row['정원']}명\n"
-        course_text += f"비고: {row['비고']}\n\n"
-    return course_text
+data_manager = get_data_manager()
+model = get_gemini_model()
 
-# Gemini 모델 초기화 (수정된 부분)
-model = genai.GenerativeModel('gemini-2.5-flash')
+# Initialize session state variables
+if "stage" not in st.session_state:
+    st.session_state.stage = "welcome"
+    st.session_state.messages = [{"role": "assistant", "content": "안녕하세요! 당신의 수강신청을 도와드릴 AI 도우미입니다. 전공과 학년을 알려주시겠어요? (예: 컴퓨터공학부 2학년)"}]
+    st.session_state.user_info = {}
+    st.session_state.schedules = []
+    st.session_state.final_schedule = None
+    st.session_state.final_explanation = ""
 
-# 대화 기록 초기화
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-if "chat" not in st.session_state:
-    # 시스템 프롬프트 설정
-    system_prompt = f"""당신은 대학교 수강신청을 돕는 친절하고 전문적인 상담 챗봇입니다.
-학생들의 질문에 아래 강좌 정보를 바탕으로 정확하게 답변하세요.
+# --- 4. Main Conversational Logic ---
 
-{get_course_info()}
+# Display prior chat messages
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-답변 시 주의사항:
-1. 강좌 정보에 없는 내용은 "해당 정보가 제공되지 않았습니다"라고 답변
-2. 여러 과목을 추천할 때는 각 과목의 핵심 정보(과목명, 교수, 시간, 학점)를 포함
-3. 시간표 관련 질문에는 요일과 시간을 명확히 표시
-4. 친근하면서도 전문적인 톤 유지
-5. 질문이 모호하면 구체적으로 무엇을 원하는지 되묻기"""
-    
-    st.session_state.chat = model.start_chat(history=[])
-    # 첫 메시지로 시스템 프롬프트 전달
-    st.session_state.chat.send_message(system_prompt)
+# Handle user input based on conversation stage
+if prompt := st.chat_input("메시지를 입력하세요..."):
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
 
-# 메인 영역과 사이드바로 나누기
-col1, col2 = st.columns([2, 1])
-
-with col1:
-    st.subheader("💬 채팅")
-    
-    # 이전 대화 표시
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.write(message["content"])
-    
-    # 사용자 입력
-    if prompt := st.chat_input("예: 월요일에 들을 수 있는 과목 알려줘"):
-        # 사용자 메시지 추가
-        st.session_state.messages.append({"role": "user", "content": prompt})
-        with st.chat_message("user"):
-            st.write(prompt)
-        
-        # AI 응답 생성
+    # --- Stage: WELCOME (Get Major/Year) ---
+    if st.session_state.stage == "welcome":
         with st.chat_message("assistant"):
-            with st.spinner("🤔 생각 중..."):
-                try:
-                    # Gemini API 호출
-                    response = st.session_state.chat.send_message(prompt)
-                    answer = response.text
-                    
-                    st.write(answer)
-                    
-                    # 응답 저장
-                    st.session_state.messages.append({"role": "assistant", "content": answer})
+            with st.spinner("정보를 분석 중입니다..."):
+                # Basic parsing for major and year
+                major_match = re.search(r'(\S+)(?:학과|학부)', prompt)
+                year_match = re.search(r'(\d)\s*학년', prompt)
                 
-                except Exception as e:
-                    st.error(f"❌ 오류가 발생했습니다: {e}")
-                    st.info("💡 API 키를 확인해주세요.")
+                if major_match and year_match:
+                    st.session_state.user_info['major'] = major_match.group(0)
+                    st.session_state.user_info['year'] = int(year_match.group(1))
+                    
+                    response_text = f"네, {st.session_state.user_info['major']} {st.session_state.user_info['year']}학년이시군요! 어떤 분야나 과목에 관심이 있으신가요? (예: '인공지능이랑 웹 개발에 관심있어요', '교양 위주로 듣고 싶어요')"
+                    st.session_state.stage = "get_interests"
+                else:
+                    response_text = "전공과 학년을 정확히 인식하지 못했어요. '컴퓨터공학부 2학년'과 같은 형식으로 다시 말씀해주시겠어요?"
+                
+                st.markdown(response_text)
+                st.session_state.messages.append({"role": "assistant", "content": response_text})
 
-with col2:
-    st.subheader("📚 전체 강좌 목록")
-    st.dataframe(courses_df, use_container_width=True, height=400)
-    
-    # 대화 초기화 버튼
-    if st.button("🔄 대화 내역 초기화"):
-        st.session_state.messages = []
-        system_prompt = f"""당신은 대학교 수강신청을 돕는 친절하고 전문적인 상담 챗봇입니다.
-학생들의 질문에 아래 강좌 정보를 바탕으로 정확하게 답변하세요.
+    # --- Stage: GET_INTERESTS (Recommend Courses) ---
+    elif st.session_state.stage == "get_interests":
+        st.session_state.user_info['interests'] = prompt
+        with st.chat_message("assistant"):
+            with st.spinner("관심분야에 맞춰 과목을 추천 중입니다... (1/3)"):
+                recommended_names = recommend_courses(
+                    st.session_state.user_info['major'],
+                    st.session_state.user_info['year'],
+                    st.session_state.user_info['interests'],
+                    data_manager,
+                    model
+                )
+                st.session_state.user_info['recommended_courses'] = recommended_names
+                
+                response_text = f"관심사를 바탕으로 다음과 같은 과목들을 추천드렸어요:\n- " + "\n- ".join(recommended_names)
+                response_text += "\n\n어떤 스타일의 시간표를 선호하시나요? (예: '금요일은 비워주세요', '아침 수업이 좋아요', '수업 사이에 시간이 없으면 좋겠어요')"
+                st.markdown(response_text)
+                st.session_state.messages.append({"role": "assistant", "content": response_text})
+                st.session_state.stage = "get_preferences"
 
-{get_course_info()}
+    # --- Stage: GET_PREFERENCES (Generate and Rank Schedules) ---
+    elif st.session_state.stage == "get_preferences":
+        st.session_state.user_info['preferences'] = prompt
+        with st.chat_message("assistant"):
+            with st.spinner("시간표를 생성하고 분석 중입니다... (2/3)"):
+                generated = generate_schedules(
+                    st.session_state.user_info['recommended_courses'],
+                    data_manager,
+                    max_schedules=10 # Limit to 10 to avoid excessive processing
+                )
+                st.session_state.schedules = generated
 
-답변 시 주의사항:
-1. 강좌 정보에 없는 내용은 "해당 정보가 제공되지 않았습니다"라고 답변
-2. 여러 과목을 추천할 때는 각 과목의 핵심 정보(과목명, 교수, 시간, 학점)를 포함
-3. 시간표 관련 질문에는 요일과 시간을 명확히 표시
-4. 친근하면서도 전문적인 톤 유지
-5. 질문이 모호하면 구체적으로 무엇을 원하는지 되묻기"""
-        st.session_state.chat = model.start_chat(history=[])
-        st.session_state.chat.send_message(system_prompt)
+            if not generated:
+                response_text = "이런, 추천된 과목들로는 시간표를 만들 수가 없네요. 추천 과목 수를 줄이거나 다른 과목으로 다시 시도해볼까요?"
+                st.markdown(response_text)
+                st.session_state.messages.append({"role": "assistant", "content": response_text})
+                st.session_state.stage = "error" # Or loop back
+            else:
+                with st.spinner("최적의 시간표를 고르고 있습니다... (3/3)"):
+                    best_schedule, explanation = rank_schedules(
+                        generated,
+                        st.session_state.user_info['preferences'],
+                        model
+                    )
+                    st.session_state.final_schedule = best_schedule
+                    st.session_state.final_explanation = explanation
+
+                    # Format the final schedule for display
+                    schedule_df = pd.DataFrame(best_schedule)
+                    schedule_display = schedule_df[['교과목명', '주담당교수', '수업교시']].to_markdown(index=False)
+
+                    response_text = f"**당신을 위한 최적의 시간표를 찾았어요!**\n\n{st.session_state.final_explanation}\n\n"
+                    response_text += f"### 추천 시간표\n{schedule_display}"
+                    st.markdown(response_text)
+                    st.session_state.messages.append({"role": "assistant", "content": response_text})
+                    st.session_state.stage = "done"
+                    st.button("처음부터 다시 시작하기")
+
+# --- 5. Restart Button Logic ---
+if st.session_state.stage == "done":
+    if st.button("처음부터 다시 시작하기"):
+        st.session_state.clear()
         st.rerun()
-
-# 하단 정보
-st.divider()
-st.caption("💡 팁: '월요일 과목', '3학점 수업', '김철수 교수님 강의' 등으로 질문해보세요!")
-st.caption("🤖 Powered by Google Gemini Pro (무료)")
