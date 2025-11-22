@@ -8,7 +8,7 @@ class CourseDataManager:
     Provides methods to load, filter, and access course information.
     """
 
-    def __init__(self, courses_file: str = 'courses.csv', required_file: str = 'required_courses.csv'):
+    def __init__(self, courses_file: str = 'data/courses.csv', required_file: str = 'data/required_courses.csv'):
         """
         Initializes the CourseDataManager by loading both course and requirement data.
         """
