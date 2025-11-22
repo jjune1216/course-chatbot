@@ -1,0 +1,3799 @@
+[
+    {
+        "name": "대학 글쓰기 1",
+        "credits": 2,
+        "type": "교양",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "대학 글쓰기 2 (과학기술글쓰기)",
+        "credits": 2,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "외국어 2과목 (+TEPS 요건)",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 기후위기와 인류",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 데이터로 디자인하는 리더십",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 아르스 롱가 – 과학, 음악, 문학의 만남",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 인간과 동물",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 자유와 정의",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 별",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 불과 문명",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 동양고전으로 보는 ‘나’",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 뇌, 기계, 진화",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 인공지능 시대의 문화예술",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 우리 안의 민속문화",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 돌봄과 생태 위기",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 빅 히스토리 – 우주와 지구, 그리고 인류",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 유토피아와 디스토피아",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 학습으로 본 ‘나’와 공동체",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 노벨과학상과 인류",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 동물과 함께한 인류의 역사",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 미래",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 현대의학과 종교의 대화",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 몸의 생태학 – 질병, 환경, 윤리",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 도시와 예술",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 자유와 선택",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 공존 – 환경, 사회 그리고 소통",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 나 찾기 – 몸, 마음, 영혼",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 스포츠로 배우는 경쟁과 협력",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 의미",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 전쟁과 평화",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "베리타스 강좌 1: 혁신의 통합적인 시각",
+        "credits": 3,
+        "type": "베리타스",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "경영학개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "공공행정의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "교육의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "국가와 시민",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "국제정치학입문",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "글로벌 이슈와 윤리적 사고",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "기업과 사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "남북관계와 통일의 전망",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "독일어권 문화의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "디지털시대의 영상문화와 윤리",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "라틴아메리카 문학과 사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "러시아인의 삶과 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "미디어와 현대사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "민주시민과 기본적 인권",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "민주시민과 헌법",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "법학개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "복지국가의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "사랑과 일, 그리고 젠더",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "사회학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "생활공간과 인간",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "성과 사랑의 역사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "섹슈얼리티와 성평등",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "소비자의 선정",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "언어의 세계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "역사 속의 전쟁과 평화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "영화 속 세계정치",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "인공지능과 알고리즘 사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "인권, NGO, 세계시민사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "정치와 정치이념",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "정치학개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "젠더와 범죄",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "젠더와 법",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "주권국가와 국제법원",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "중남미 정치·경제·사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대국가와 행정",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대사회와 국제어",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대사회와 법",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대사회의 생로병사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대정치의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "부모교육",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "친밀성과 가족",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "사회혁신과 교육개혁",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "영국축구와 글로벌 스포츠의 발전",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "인간의 이해와 사회 분석",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "고대그리스·로마문학의 세계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "공연예술의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "그리스·로마신화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "그리스비극",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "기독교와 서양문명",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "대중예술의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "도스토예프스키와 톨스토이",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "도시의 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동양문학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동서양 명작 읽기",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동시대 미술과 현장",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동양미술개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동양의 고전",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "디자인과 생활",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "리시어틀의 언어",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "만화로 보는 세계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "문학 속 인간과 기계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "문학과 공연예술",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "문학과 영상",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "문학과 정신분석",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "문학과 철학의 대화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "미국문화와 현대사회의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "미디어 리터러시의 세계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "미술문론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "상상력과 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "서양근대철학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "서양미술사개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "서양연극의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "서양의 환상적 전통",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "세계관과 영화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "스페인어권 문화의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "스페인어인문학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "아시아미술의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "아시아의 종교와 미술",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "아시아인의 삶과 언어",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "언어와 사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "여성과 문학",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "영미 대중소설의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "영미 문화의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "영상예술의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "역사의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "예술과 과학",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "예술과 사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "음악과 사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "음악입문론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "이동문학이사랑",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "인도가 본 한국",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "인도의 전통과 현대",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전통과 일상의 한국문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "종교와 예술",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "중국어권 사회와 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "중국인의 언어와 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "창작의 세계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "프랑스문학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "프랑스어권 문화의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국 음악과 이야의 상상력",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국문학과 문화예술",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국문학과 세계문학",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국의 신화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국의 문자와 문자문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국인의 언어와 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한자문헌읽기",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한글문학번역의 이론과 실제",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한자와 동양문자",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대미술의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대종교와 윤리",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "문화 해석과 상상",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "고고학개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "규장각과 한국문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "근·현대 한국민주주의",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "근대 한국의 역사와 문화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "남북분단과 한국전쟁",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "논리학",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "도덕적 추론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동서문명의 만남과 실크로드",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동아시아의 역사를쟁",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동아시아의 왕권",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동양예술문화론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동양철학의 고전",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "동양철학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "문명의 기원",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "미학과 예술론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "법과 가치",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "사상과 윤리",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "사회철학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "생명 의료윤리",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "서양문명의 역사 1: 고대에서 르네상스까지",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "서양문명의 역사 2: 종교개혁에서 냉전까지",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "서양철학의 고전",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "서양철학의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "성의 철학과 성윤리",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "세계종교입문",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "역사 속의 종족과 그 이후",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "역사의 역사 체험",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "예술과 신화",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "예술의 기적과 매혹",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "이슬람 문명의 역사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "인류문화의 기원",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "인물로 본 한국사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "일본의 인물과 역사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "자아탐색과 자아실현",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "조선의 역사적 성취와 유산",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "종교와 상징의 세계",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "주제로 본 동양철학",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "중국군관과 중국사상",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "중국의 전통과 현대",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "처음 배우는 서양사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "철학개론",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "철학으로 예술 보기",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "테마 중국사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국문화와 불교",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국문화와 유교사회",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국사",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국사의 새로운 해석",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국의 문화유산",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국의 역사와 역사학",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "한국현대사의 이해",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대사회와 윤리",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대서양의 형성",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "기하학의 그리스적 발견",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "책의 역사와 읽기의 미래",
+        "credits": 3,
+        "type": "지성의 열쇠",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "keys_category": "역사적 탐구와 철학적 사유",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "수학 1",
+        "credits": 2,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "수학연습 1",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 10:00-12:00",
+            "Fri 15:00-17:00",
+            "Fri 13:00-15:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "수학 2",
+        "credits": 2,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "수학연습 2",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 13:00-15:00",
+            "Fri 10:00-12:00",
+            "Fri 15:00-17:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "물리학 1",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "물리학실험 1",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 15:00-17:00",
+            "Fri 13:00-15:00",
+            "Fri 10:00-12:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "물리학 2",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "물리학실험 2",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 13:00-15:00",
+            "Fri 15:00-17:00",
+            "Fri 10:00-12:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "화학 1",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "화학 2",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "화학",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "화학실험",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 13:00-15:00",
+            "Fri 10:00-12:00",
+            "Fri 15:00-17:00"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "생물학 1",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "생물학 2",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "생물학",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "생물학실험",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 13:00-15:00",
+            "Fri 10:00-12:00",
+            "Fri 15:00-17:00"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "통계학",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "통계학실험",
+        "credits": 1,
+        "type": "교양",
+        "schedule": [
+            "Fri 15:00-17:00",
+            "Fri 13:00-15:00",
+            "Fri 10:00-12:00"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "컴퓨터의 개념 및 실습",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "recommended_year": [
+            1,
+            2
+        ]
+    },
+    {
+        "name": "창의공학설계",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "공학수학 1",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "공학수학 2",
+        "credits": 3,
+        "type": "교양",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "기초회로이론 및 실험",
+        "credits": 4,
+        "type": "전공필수",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "논리설계 및 실험",
+        "credits": 4,
+        "type": "전공필수",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "프로그래밍방법론",
+        "credits": 4,
+        "type": "전공필수",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기·정보세미나1",
+        "credits": 1,
+        "type": "전공필수",
+        "schedule": [
+            "Fri 15:00-17:00",
+            "Fri 10:00-12:00"
+        ],
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "기초전자기학 및 연습",
+        "credits": 4,
+        "type": "전공필수",
+        "schedule": [
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "자료구조의 기초",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기시스템 선형대수",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "신호 및 시스템",
+        "credits": 3,
+        "type": "전공필수",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기·정보세미나2",
+        "credits": 1,
+        "type": "전공필수",
+        "schedule": [
+            "Fri 13:00-15:00",
+            "Fri 15:00-17:00"
+        ],
+        "recommended_year": [
+            2
+        ]
+    },
+    {
+        "name": "기초전자회로 및 실험",
+        "credits": 4,
+        "type": "전공필수",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "제어공학개론",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "확률변수 및 확률과정의 기초",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "통신의 기초",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "양자역학의 응용",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전자기학",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "생체전기정보공학",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "반도체소자",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "아날로그전자회로",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "디지털 시스템 설계 및 실험",
+        "credits": 4,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "컴퓨터조직론",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기에너지변환",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전력 및 에너지 시스템의 기초",
+        "credits": 3,
+        "type": "전공선택필수",
+        "schedule": [
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "데이터통신망의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전력전자공학",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "알고리즘의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기·정보세미나3",
+        "credits": 1,
+        "type": "전공필수",
+        "schedule": [
+            "Fri 13:00-15:00",
+            "Fri 15:00-17:00"
+        ],
+        "recommended_year": [
+            3
+        ]
+    },
+    {
+        "name": "로봇공학개론",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "지능시스템개론",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 09:30-11:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "최신제어기법",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "정보이론",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "통신시스템",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "디지털 신호처리의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전파공학",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "네트워크 프로토콜 설계 및 실습",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전력시장이론",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기기기 및 제어",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "마이크로나노시스템 기술개론",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "아날로그집적회로",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "디지털집적회로",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Mon/Wed 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "나노소자의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 11:00-12:30",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전자물리의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "생체계측",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "유기전자소자",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 11:00-12:30",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "광전자공학",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "임베디드 시스템설계",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 09:30-11:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "운영체제의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Mon/Wed 11:00-12:30",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "컴파일러의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 09:30-11:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "기계학습 기초 및 전기정보 응용",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Mon/Wed 14:00-15:30",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "딥러닝의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "컴퓨터비전의 기초",
+        "credits": 3,
+        "type": "전공선택",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Mon/Wed 15:30-17:00"
+        ],
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "해석개론1",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 14:00-15:30"
+        ],
+        "department": "수리과학부",
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "선형대수학1",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Mon/Wed 15:30-17:00",
+            "Tue/Thu 14:00-15:30",
+            "Mon/Wed 11:00-12:30"
+        ],
+        "department": "수리과학부",
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "미분방정식",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 11:00-12:30"
+        ],
+        "department": "수리과학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "정수론",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 12:30-14:00"
+        ],
+        "department": "수리과학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "집합과 수리논리",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "department": "수리과학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "전기와 자기",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "department": "물리학과",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "역학",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "department": "물리학과",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "현대 물리학의 기초",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 09:30-11:00",
+            "Mon/Wed 12:30-14:00"
+        ],
+        "department": "물리학과",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "유기화학1",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 14:00-15:30"
+        ],
+        "department": "화학과",
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "물리화학1",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 09:30-11:00"
+        ],
+        "department": "화학과",
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "분석화학1",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 14:00-15:30",
+            "Tue/Thu 11:00-12:30",
+            "Tue/Thu 09:30-11:00"
+        ],
+        "department": "화학과",
+        "recommended_year": [
+            1
+        ]
+    },
+    {
+        "name": "미시경제이론",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 12:30-14:00",
+            "Tue/Thu 15:30-17:00"
+        ],
+        "department": "경제학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "경제사",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Mon/Wed 11:00-12:30"
+        ],
+        "department": "경제학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "정치경제학입문",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Mon/Wed 12:30-14:00",
+            "Tue/Thu 12:30-14:00"
+        ],
+        "department": "경제학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    },
+    {
+        "name": "시장경제의 이해",
+        "credits": 3,
+        "type": "타과전선",
+        "schedule": [
+            "Tue/Thu 15:30-17:00",
+            "Tue/Thu 11:00-12:30"
+        ],
+        "department": "경제학부",
+        "recommended_year": [
+            3,
+            4
+        ]
+    }
+]

@@ -1,0 +1,86 @@
+{
+    "graduation_requirements": {
+        "total_credits_min": 130,
+        "general_education": {
+            "writing": {
+                "description": "Must take Writing 1 and Writing 2 (Science & Tech)",
+                "courses": [
+                    "대학 글쓰기 1",
+                    "대학 글쓰기 2 (과학기술글쓰기)"
+                ],
+                "required_credits": 4
+            },
+            "keys_of_intelligence": {
+                "description": "3 credits from each category: Culture, History, Society",
+                "categories": {
+                    "문화 해석과 상상": 3,
+                    "역사적 탐구와 철학적 사유": 3,
+                    "인간의 이해와 사회 분석": 3
+                },
+                "total_required": 9
+            },
+            "veritas": {
+                "description": "Minimum 3 credits from Veritas domain",
+                "total_required": 3
+            },
+            "basic_science_math": {
+                "description": "Mandatory Math, Physics, and Computer Concepts",
+                "mandatory_courses": [
+                    "수학 1",
+                    "수학연습 1",
+                    "수학 2",
+                    "수학연습 2",
+                    "물리학 1",
+                    "물리학실험 1",
+                    "물리학 2",
+                    "물리학실험 2",
+                    "컴퓨터의 개념 및 실습"
+                ],
+                "math_electives": [
+                    "공학수학 1",
+                    "공학수학 2"
+                ]
+            }
+        },
+        "major": {
+            "total_major_credits_min": 63,
+            "other_dept_allowance": 9,
+            "mandatory_major (전필)": {
+                "required_credits": 32,
+                "course_names": [
+                    "논리설계 및 실험",
+                    "기초전자기학 및 연습",
+                    "기초전자회로 및 실험",
+                    "기초회로이론 및 실험",
+                    "전기·정보세미나1",
+                    "전기·정보세미나2",
+                    "전기·정보세미나3",
+                    "전기공학설계프로젝트",
+                    "신호 및 시스템",
+                    "프로그래밍방법론",
+                    "창의공학설계"
+                ]
+            },
+            "selective_electives (14선 13학점)": {
+                "description": "Must take at least 13 credits from this specific list",
+                "min_credits": 13,
+                "course_names": [
+                    "전자기학",
+                    "아날로그전자회로",
+                    "전력 및 에너지 시스템의 기초",
+                    "컴퓨터조직론",
+                    "양자역학의 응용",
+                    "전기에너지변환",
+                    "제어공학개론",
+                    "반도체소자",
+                    "확률변수 및 확률과정의 기초",
+                    "디지털 시스템 설계 및 실험",
+                    "통신의 기초",
+                    "자료구조의 기초",
+                    "생체전기정보공학",
+                    "컴퓨터이용설계의 기초"
+                ]
+            }
+        }
+    }
+}
