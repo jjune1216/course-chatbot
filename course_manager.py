@@ -1,3 +1,4 @@
+import re
 import json
 import pandas as pd
 from typing import List, Dict, Any
@@ -50,7 +51,32 @@ class CourseManager:
         """Returns a DataFrame of all Veritas courses."""
         if self.courses_df.empty:
             return pd.DataFrame()
-        return self.courses_df[self.courses_df['type'] == '베리타스']
+        veritas_courses = self.courses_df[self.courses_df['type'] == '베리타스']
+        print(f"DEBUG: Found {len(veritas_courses)} Veritas courses.")
+        return veritas_courses
+
+    def get_jiseong_courses(self, jiseong_type: str) -> pd.DataFrame:
+        """Returns a DataFrame of all Jiseong courses of a specific type."""
+        if self.courses_df.empty:
+            return pd.DataFrame()
+
+        # Mapping from app-facing strings to the data's keys_category
+        category_mapping = {
+            "문화 해석과 상상": ["문화 해석과 상상"],
+            "역사적 탐구와 철학적 사유": ["역사적 탐구와 철학적 사유"],
+            "인간의 이해와 사회 분석": ["인간의 이해와 사회 분석"]
+        }
+
+        target_categories = category_mapping.get(jiseong_type)
+
+        if target_categories is not None:
+            return self.courses_df[
+                (self.courses_df['type'] == '지성의 열쇠') &
+                (self.courses_df['keys_category'].isin(target_categories))
+            ]
+        else:
+            # Fallback for any unmapped types
+            return pd.DataFrame()
 
     def get_required_course_names(self, major: str, year: int) -> List[str]:
         """
