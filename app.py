@@ -11,7 +11,7 @@ import anthropic
 load_dotenv()
 # Configure Anthropic client, API key will be read from ANTHROPIC_API_KEY environment variable
 
-st.title("🎓 AI 수강신청 도우미")
+st.title("SNUMate AI 수강신청 도우미")
 
 # --- 3. State Management and Initialization ---
 @st.cache_resource
